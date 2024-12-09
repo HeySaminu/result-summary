@@ -181,7 +181,7 @@ main{
   }
 }
 
-.result-wrapper h1{
+.result-wrapper h2{
   color: var(--clr-light-blue);
   font-weight: 700;
   @media (min-width: 768px) {
@@ -250,6 +250,7 @@ main{
   gap: 24px;
 
   @media (min-width: 768px) {
+    gap: 28px;
     padding: 40px;
   }
 }
@@ -332,6 +333,10 @@ a.continue-btn{
   position: relative;
   overflow: hidden;
   z-index: 1;
+  @media (min-width: 768px) {
+    margin-block-start: 13px;
+  }
+  
   
 }
 
